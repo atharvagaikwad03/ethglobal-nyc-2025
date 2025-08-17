@@ -1,0 +1,39 @@
+{
+  "name": "agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "dependencies": {
+    "@ai-sdk/openai": "~1.0.20",
+    "@goat-sdk/adapter-vercel-ai": "0.2.10",
+    "@goat-sdk/core": "0.4.9",
+    "@goat-sdk/plugin-coingecko": "0.2.10",
+    "@goat-sdk/plugin-erc20": "0.2.14",
+    "@goat-sdk/wallet-evm": "0.2.11",
+    "@goat-sdk/wallet-viem": "0.2.12",
+    "ai": "~4.0.41",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "viem": "2.23.4",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}
